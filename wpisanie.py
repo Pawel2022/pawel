@@ -7,6 +7,7 @@ if qq == 1:
 if qq == 2:
     from wzory import p_pro
     p_pro()
+    print(p_pro())
 
 if qq == 3:
     from wzory import p_t
@@ -15,6 +16,7 @@ if qq == 3:
 if qq == 4:
     from wzory import p_tr
     p_tr()
+    print(p_tr())
 
 if qq == 5:
     from wzory import p_tra
@@ -23,6 +25,7 @@ if qq == 5:
 if qq == 6:
     from wzory import p_kol
     p_kol()
+    print(p_kol())
 
 if qq == 7:
     from wzory import p_rombh
@@ -31,14 +34,17 @@ if qq == 7:
 if qq == 8:
     from wzory import p_rombp
     p_rombp()
+    print(p_rombp())
 
 if qq == 9:
     from wzory import p_row
     p_row()
+    print(p_row())
 
 if qq == 10:
     from wzory import v_sze
     v_sze()
+    print(v_sze())
 
 if qq == 11:
     from wzory import v_gra1
@@ -51,10 +57,12 @@ if qq == 12:
 if qq == 13:
     from wzory import v_ostr
     v_ostr()
+    print(v_ostr())
 
 if qq == 14:
     from wzory import v_wal
     v_wal()
+    print(v_wal())
 
 if qq == 15:
     from wzory import v_kul
@@ -63,14 +71,17 @@ if qq == 15:
 if qq == 16:
     from wzory import v_stoz
     v_stoz()
+    print(v_stoz())
 
 if qq == 17:
     from wzory import pc_sze
     pc_sze()
+    print(pc_sze())
 
 if qq == 18:
     from wzory import pc_gran
     pc_gran()
+    print(pc_gran())
 
 if qq == 19:
     from wzory import pc_pro
@@ -123,6 +134,7 @@ if qq == 30:
 if qq == 31:
     from wzory import wtr
     wtr()
+    print(wtr())
 
 if qq == 32:
     from wzory import obw_k

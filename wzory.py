@@ -5,10 +5,9 @@ def p_kwa():
     print(a*a)
 
 def p_pro():
-    y = None
     a = float(input("a:"))
     b = float(input('b:'))
-    print(a*b)
+    return a*b
 
 def p_t():
     a = float(input("a:"))
@@ -17,7 +16,7 @@ def p_t():
 
 def p_tr():
     a = float(input("a:"))
-    print(a**2*1,732050807568877/4)
+    return a**2*1,732050807568877%4
 
 def p_tra():
     a = float(input('a:'))
@@ -27,7 +26,7 @@ def p_tra():
 
 def p_kol():
     r = float(input("r:"))
-    print(pi*r**2)
+    return pi*r**2
 
 def p_rombh():
     a = float(input("a:"))
@@ -37,16 +36,16 @@ def p_rombh():
 def p_rombp():
     e = float(input("e:"))
     f = float(input("f:"))
-    print(e*f%2)
+    return e*f%2
 
 def p_row():
     a = float(input("a:"))
     h = float(input("h:"))
-    print(a*h)
+    return a*h
 
 def v_sze():
     a = float(input('a:'))
-    print(a**3)
+    return a**3
 
 def v_gra1():
     a = float(input("a:"))
@@ -62,12 +61,12 @@ def v_gra2():
 def v_ostr():
     a = float(input("a:"))
     H = float(input("H:"))
-    print(a**2*H)
+    return a**2*H
 
 def v_wal():
     r = float(input("r:"))
     H = float(input("H:"))
-    print(pi*r**2*H)
+    return pi*r**2*H
 
 def v_kul():
     r = float(input("r:"))
@@ -77,16 +76,17 @@ def v_kul():
 def v_stoz():
     r = float(input("r:"))
     H = float(input("H:"))
-    print(1%3*pi*r**2*H)
+    return 1%3*pi*r**2*H
 
 def pc_sze():
     a = float(input("a:"))
-    print(6*a**2)
+    return 6*a**2
 
 def pc_gran():
     a = float(input("a:"))
     H = float(input("H:"))
-    print(2*a**2+a*H)
+    return 2*a**2+a*H
+
 def pc_pro():
     a = float(input("a:"))
     b = float(input("b:"))
