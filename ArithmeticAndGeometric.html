@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <script src="./JS/ArithmeticAndGeometric.js" defer></script>
+    <body>
+        <header>
+            <ol>
+                <li>
+                    <a href="ArithmeticAndGeometric.html">
+                        Arithmetic And Geometric Sequence</a
+                    >
+                </li>
+                <li>
+                    <a href="FibonacciSequence.html"> Fibonacci Sequence </a>
+                </li>
+            </ol>
+        </header>
+        <div class="forms-div">
+                <label>First Element:</label>
+                <input type="text" id="first-element" />
+
+                <label>Second Element:</label>
+                <input type="text" id="second-element" />
+
+                <label>How Many Elements</label>
+                <input type="text" id="number-elements" />
+
+                <!-- ta sama nazwa pozwala na wbór tylko 1 rzeczy  name="type" -->
+                <input
+                    type="radio"
+                    id="arithmetic"
+                    name="type"
+                    value="arithmetic"
+                />
+                <label for="arithmetic">Arithmetic Sequence</label>
+
+                <input
+                    type="radio"
+                    id="geometric"
+                    name="type"
+                    value="geometric"
+                />
+                <label for="geometric">Geometric Sequence</label>
+
+                <input
+                    type="button"
+                    value="Calculate Arithmetic Sequence"
+                    id="calculate"
+                />
+        </div>
+        <div class="elements-div">
+            <h2>Elements of the selected mathematical sequence</h2>
+            <div class="elements-div__generated" id="elements"></div>
+        </div>
+        <footer>
+            <h2>
+                <a
+                    href="https://drive.google.com/drive/u/1/folders/1gnBa8HbDgnC4Vya-gHqhVVyH7EjQxMRz"
+                >
+                    Learning materials
+                </a>
+            </h2>
+        </footer>
+    </body>
+</html>
